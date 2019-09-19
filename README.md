@@ -34,12 +34,31 @@ https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
 ## Active the env
 `source venv/bin/activate`
 
+# deactivate virtualenv
+deactivate
+rm -rf venv
+
 # pip
 ## List libraries
-pip list
+pip3 list
 
 ## Install django
-pip install django
+pip3 install django
 
 ## Add requirements.txt file
-pip freeze > requirements.txt
+pip3 freeze > requirements.txt
+
+## Install dependencies
+pip3 install -r requirements.txt
+
+# Hands on code
+## Start server
+python manage.py runserver
+
+## Start server on port 5000
+python manage.py runserver 5000
+
+# Others
+`sudo apt-get install tree`
+
+`tree mysite`
