@@ -26,3 +26,20 @@ where python
 
 # Cheat sheet
 https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
+
+# Python Virtual ENV
+## Create a virtual env
+`virtualenv venv`
+
+## Active the env
+`source venv/bin/activate`
+
+# pip
+## List libraries
+pip list
+
+## Install django
+pip install django
+
+## Add requirements.txt file
+pip freeze > requirements.txt
