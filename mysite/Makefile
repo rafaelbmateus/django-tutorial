@@ -6,3 +6,6 @@ server:
 
 app:
 	python manage.py startapp ${APP_NAME}
+
+migrate:
+	python manage.py migrate
