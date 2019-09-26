@@ -29,7 +29,7 @@ https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
 
 # Python Virtual ENV
 ## Create a virtual env
-`virtualenv venv`
+`python3 -m virtualenv venv `
 
 ## Active the env
 `source venv/bin/activate`
@@ -40,25 +40,38 @@ rm -rf venv
 
 # pip
 ## List libraries
-pip3 list
+pip list
 
 ## Install django
-pip3 install django
+pip install django
 
 ## Add requirements.txt file
-pip3 freeze > requirements.txt
+pip freeze > requirements.txt
 
 ## Install dependencies
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 
-# Hands on code
+# Hands on code (first class)
 ## Start server
 python manage.py runserver
 
 ## Start server on port 5000
 python manage.py runserver 5000
 
-# Others
+# Tutorial 01 (second class)
+https://docs.djangoproject.com/en/1.7/intro/tutorial01/
+
+# Others notes
+## tree
 `sudo apt-get install tree`
 
 `tree mysite`
+
+## Material UI
+https://material-ui.com/
+
+## PEP 8 - Style Guide for Python Code
+https://www.python.org/dev/peps/pep-0008/
+
+## Konsole
+https://konsole.kde.org
